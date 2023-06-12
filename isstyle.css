@@ -1,0 +1,89 @@
+body{ 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+.navbar {
+    display: flex;
+    top: 0;
+    position: sticky;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+
+.nav-list {
+    width: 50%;
+    align-items: center;
+    display: flex;
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 30px;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: rgb(182, 109, 109);
+
+
+
+}
+
+
+
+.nav-list li a:hover {
+    color: grey;
+
+}
+
+
+
+.h1 {
+    text-align: center;
+}
+
+.Logo {
+    width: 30%;
+    display: flex;
+
+}
+
+.Logo img {
+    width: 33%;
+    border: 3px black;
+    border-radius: 50px;
+
+}
+
+.profile {
+    margin: 40px;
+}
+
+.about {
+    margin: 40px;
+}
+
+.experiences {
+    margin: 40px;
+}
+
+.skills {
+    margin: 40px;
+}
+
+.projects {
+    margin: 40px;
+}
+
+.certifications {
+    margin: 40px;
+    
+}
